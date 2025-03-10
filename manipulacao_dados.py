@@ -30,5 +30,5 @@ df_filtrado = df[df['Temperatura Máxima (°C)'] > 30]
 # Reordenar o DataFrame conforme solicitado
 df_filtrado = df_filtrado[['Data', 'Cidade', 'Temperatura Máxima (°C)', 'Temperatura Mínima (°C)', 'Amplitude Térmica', 'Precipitação (mm)', 'Umidade Relativa (%)']]
 
+# Exibir o DataFrame resultante
 print(df_filtrado)
-
