@@ -34,3 +34,4 @@ plt.figure(figsize=(6,4))
 sns.heatmap(correlacao, annot=True, cmap='coolwarm', fmt='.2f')
 plt.title('Correlação entre Vendas, Número de Clientes e Lucro')
 plt.show()
+
